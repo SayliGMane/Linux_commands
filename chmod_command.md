@@ -25,11 +25,23 @@
   - `-f` : supress all error messages.
   - `-R` : change files and directories recursively
 
+## Examples
+
+Examples of Using the Symbolic mode:
+>Read, write and execute permissions to the file owner:
+    `chmod u+rwx [file_name]`
+
+>Remove write permission for the group and others:
+     `chmod go-w [file_name]`
+
+>Read and write for Owner, and Read-only for the group and other:
+    `chmod u+rw,go+r [file_name]``
+
 
 
  ## Reference:
 
-  - [Geek](https://www.geeksforgeeks.org/mv-command-linux-examples/)
+  - [Geek](https://www.geeksforgeeks.org/chmod-command-linux/?ref=header_search)
   - man chmod
   - chmod --help
 
