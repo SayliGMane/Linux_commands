@@ -10,3 +10,6 @@
 shows the last 10 lines of the file “file.txt”.
 - `tail -n 5 file.txt` 
 displays the last 5 lines of the file “file.txt”.
+---
+#### <ins>References</ins>
+[www.geeksforgeeks.org](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/)
